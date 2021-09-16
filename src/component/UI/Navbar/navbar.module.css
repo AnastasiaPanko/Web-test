@@ -1,0 +1,44 @@
+:root {
+    --sans-font: 'Open Sans', sans-serif;
+    --bold-font: 700;
+    --regular-font: 400;
+    --semi-bold-font: 600;
+    --white-color: hsl(0, 0%, 100%);
+    --img-head-color: hsl(0, 0%, 10%);
+    --cyan-color: hsl(174, 100%, 27%);
+    --black-font: hsl(0, 0%, 0%);
+    --roboto-font: 'Roboto', sans-serif;
+}
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    block-size: 5em;
+    padding: 0 5%;
+    background-color: var(--white-color);
+}
+
+.firstNavItem {
+    color: var(--black-font);
+    font-family: var(--sans-font);
+    font-size: 25px;
+    font-weight: var(--bold-font);
+    text-decoration: none;
+}
+
+.navItems {
+    background-color: var(--white-color);
+    display: flex;
+    width: 60%;
+}
+
+.navItem {
+    cursor: pointer;
+    color: var(--black-font);
+    font-family: var(--sans-font);
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: var(--semi-bold-font);
+    text-decoration: none;
+}
+
